@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp6.Description_Hyper_212_Black"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_Hyper_212_Black" Height="450" Width="800">
+    <Grid Background="#FF380000">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="50,38,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="108" Margin="50,116,0,0" VerticalAlignment="Top" Width="132"/>
+        <Label Content="Cooler Coolermaster Hyper 212 Black " HorizontalAlignment="Left" Margin="249,116,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="249,171,0,0" TextWrapping="Wrap" Text="Item Dimensions LxWxH	4.7 x 3.1 x 6.3 inches/
+Brand	Cooler Master/
+Power Connector Type	4-Pin/
+Voltage	12 Volts/
+Cooling Method	Fan/
+Compatible Devices	Desktop/
+Noise Level	26 dB/
+Material	Copper,Nickel/
+Maximum Rotational Speed	1500 RPM/
+Air Flow Capacity	42 Cubic Feet Per Minute" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="246,245,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ch5" HorizontalAlignment="Left" Height="23" Margin="307,250,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,123 @@
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\WpfApp7.exe.config
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\WpfApp7.exe
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\WpfApp7.pdb
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\MaterialDesignColors.dll
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csprojAssemblyReference.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\MainWindow.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\App.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7_MarkupCompile.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7_MarkupCompile.lref
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\App.baml
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\MainWindow.baml
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.g.resources
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.Properties.Resources.resources
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csproj.GenerateResource.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csproj.CoreCompileInputs.cache
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csproj.CopyComplete
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.exe
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\WpfApp7.pdb
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\Items.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\SignUp.g.cs
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\Items.baml
+C:\Users\Hasandi De Silva\source\repos\WpfApp7\WpfApp7\obj\Debug\SignUp.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\WpfApp7.exe.config
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\WpfApp7.exe
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\WpfApp7.pdb
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\MaterialDesignColors.dll
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\MaterialDesignColors.pdb
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Items.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\MainWindow.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\App.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7_MarkupCompile.cache
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7_MarkupCompile.lref
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\App.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Items.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\MainWindow.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.g.resources
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.Properties.Resources.resources
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csproj.GenerateResource.cache
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csproj.CoreCompileInputs.cache
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csproj.CopyComplete
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.exe
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.pdb
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Client1.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Client1.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Cartridge.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Casing.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Cpu.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Cpucooler_and_heatsink.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Display.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Laptop-Asus.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\LaptopDell.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\LaptopHp.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Laptop_battery.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Laptop_Lenvo.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Power_Supply.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Printer.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Cartridge.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Casing.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Cpu.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Cpucooler_and_heatsink.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Display.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Laptop-Asus.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\LaptopDell.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\LaptopHp.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Laptop_battery.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Laptop_Lenvo.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Power_Supply.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Printer.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Styles.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\HomePage.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\HomePage.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\DescriptionCoolerMasterMwe650w.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Ac_Tech_200w.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_AMD_Ryzen™9.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Asus_Rog_Strix_Lc_Ii.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Asus_Rog_Thor_850w.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Cooler_Master_Mwe_450w.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Cooler_Master_Mwe_550w .g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Cooler_Master_Mwe_750w.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I5-11400f.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I7-10700.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I7-11700f.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I7-11700k.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_H410r_Rgb_Hyper.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Hyper_212_Black .g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_I30_Cooler.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_I5-10400.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Ma612_Argb.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Ma612_Stealth.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\DescriptionCoolerMasterMwe650w.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Ac_Tech_200w.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_AMD_Ryzen™9.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Asus_Rog_Strix_Lc_Ii.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Asus_Rog_Thor_850w.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Cooler_Master_Mwe_450w.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Cooler_Master_Mwe_550w .baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Cooler_Master_Mwe_750w.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I5-11400f.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I7-10700.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I7-11700f.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Core_I7-11700k.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_H410r_Rgb_Hyper.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Hyper_212_Black .baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_I30_Cooler.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_I5-10400.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Ma612_Argb.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Description_Ma612_Stealth.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\CustomerLogin.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\CustomerSignUp.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Login.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\CustomerLogin.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\CustomerSignUp.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\Login.baml
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\WpfApp7.csprojAssemblyReference.cache
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\View.g.cs
+C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\obj\Debug\View.baml

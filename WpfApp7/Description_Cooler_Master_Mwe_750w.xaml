@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp6.Description_Cooler_Master_Mwe_750w"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_Cooler_Master_Mwe_750w" Height="450" Width="800">
+    <Grid Background="#FF310000">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="38,38,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="133" Margin="38,115,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Power Supply Cooler Master Mwe 750w" HorizontalAlignment="Left" Margin="253,115,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="253,165,0,0" TextWrapping="Wrap" Text="Model Name	MWE 750 Bronze V2 230v/
+Brand	Cooler Master/
+Compatible Devices	Personal Computer/
+Connector Type	ATX, SATA/
+Audio Wattage	750 Watts" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="252,229,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ps6" HorizontalAlignment="Left" Height="23" Margin="303,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,53 @@
+﻿<Window x:Class="WpfApp7.Power_Supply"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Power_Supply" Height="613.366" Width="800" Background="#FF270707"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}" 
+        AllowsTransparency="True"
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="20" BorderThickness="0">
+        <Grid Background="#FF220707">
+
+            <StackPanel Margin="0,0,0,0">
+                <Grid Height="25" Margin="0,0,-0.4,0">
+                    <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\multiply_480px.png" Style="{StaticResource CloseStyle}" Panel.ZIndex="1" MouseUp="Image_MouseUp" Margin="0,0,-0.4,0" RenderTransformOrigin="0.015,0.478"/>
+                    <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\left_500px.png" Panel.ZIndex="1" MouseUp="Image_Back" RenderTransformOrigin="0.372,0.809" Margin="0,0,763.4,0"/>
+                </Grid>
+                <Grid>
+                    <Label Foreground="White"  Content="Power Suply" HorizontalAlignment="Left" Margin="29,28,0,0" VerticalAlignment="Top" Width="154" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="59,97,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\PSUA0001.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="359,97,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\PSUA8534.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="606,97,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\PSUC6138.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="59,327,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\PSUC6459.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="359,327,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\PSUC6770.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="606,327,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\PSUC8873.jpg"/>
+        <Label Foreground="White"  Content="Power Supply Ac Tech 200w" HorizontalAlignment="Left" Margin="29,211,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="Power Supply Asus Rog Thor 850w " HorizontalAlignment="Left" Margin="323,211,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="4,750.00 per EACH" HorizontalAlignment="Left" Margin="50,238,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="70,500.00 per EACH" HorizontalAlignment="Left" Margin="359,243,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.243,0.667"/>
+        <Label Foreground="White"  Content="Power Supply Cooler Master Mwe 450w" HorizontalAlignment="Left" Margin="556,211,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="19,650.00 per EACH" HorizontalAlignment="Left" Margin="606,247,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="Power Supply Cooler Master Mwe 550w " HorizontalAlignment="Left" Margin="29,441,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="22,000.00 per EACH" HorizontalAlignment="Left" Margin="68,468,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="Power Supply Cooler Master Mwe 650w" HorizontalAlignment="Left" Margin="323,441,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="26,000.00 per EACH" HorizontalAlignment="Left" Margin="359,473,0,0" VerticalAlignment="Top"/>
+        <Label Foreground="White"  Content="Power Supply Cooler Master Mwe 750w" HorizontalAlignment="Left" Margin="556,448,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.622,0.715"/>
+        <Label Foreground="White"  Content="42,600.00 per EACH" HorizontalAlignment="Left" Margin="606,475,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn_PS1" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="68,271,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_PS2" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="384,275,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_PS3" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="631,280,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_PS4" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="83,502,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_PS5" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="384,507,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_PS6" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="631,508,0,0" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window> 

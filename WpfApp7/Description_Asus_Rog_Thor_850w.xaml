@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp6.Description_Asus_Rog_Thor_850w"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_Asus_Rog_Thor_850w" Height="450" Width="800">
+    <Grid Background="#FF2F0101">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="46,35,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="129" Margin="46,110,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Power Supply Asus Rog Thor 850w " HorizontalAlignment="Left" Margin="248,110,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="248,156,0,0" TextWrapping="Wrap" Text="Brand	ASUS/
+Compatible Devices	Personal Computer/
+Connector Type	PCI Express/
+Output Wattage	850/
+Form Factor	ATX/
+Wattage	850 watts/
+Cooling Method	Air/
+Item Dimensions LxWxH	7.4 x 5.9 x 3.3 inches/
+Item Weight	0.01 Ounces/
+Power Supply Design	Full Modular" VerticalAlignment="Top" Foreground="#FFF3F3F3"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="265,239,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ps2" HorizontalAlignment="Left" Height="23" Margin="326,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

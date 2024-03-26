@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp6.Description_Ma612_Stealth"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_Ma612_Stealth" Height="450" Width="800">
+    <Grid Background="#FF2E0000">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="56,39,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="127" Margin="56,113,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Cooler Cooler Masterair Ma612 Stealth" HorizontalAlignment="Left" Margin="266,113,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="266,165,0,0" TextWrapping="Wrap" Text="Item Dimensions LxWxH	5.08 x 4.41 x 7.8 inches/
+Brand	Cooler Master/
+Voltage	12 Volts/
+Wattage	1.8 watts/
+Cooling Method	Fan/
+Compatible Devices	Desktop/
+Noise Level	30 dB/
+Material	Aluminum,Copper,Nickel/
+Maximum Rotational Speed	1500 RPM" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="264,236,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ch3" HorizontalAlignment="Left" Height="23" Margin="328,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

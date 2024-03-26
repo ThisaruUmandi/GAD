@@ -1,0 +1,42 @@
+﻿<Window x:Class="WpfApp7.Cartridge"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Cartridge" Height="591.089" Width="800" Background="#FF220707"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}" 
+        AllowsTransparency="True"
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="0,0,0,0">
+            <Grid Height="25" Margin="0,0,-0.4,0">
+                <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\multiply_480px.png" Style="{StaticResource CloseStyle}" Panel.ZIndex="1" MouseUp="Image_MouseUp" Margin="0,0,-0.4,0" RenderTransformOrigin="0.015,0.478"/>
+                <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\left_500px.png" Panel.ZIndex="1" MouseUp="Image_Back" RenderTransformOrigin="0.372,0.809" Margin="0,0,763.4,0"/>
+            </Grid>
+            <Grid Height="590">
+                <Label Content="Cartridge" Foreground="White" HorizontalAlignment="Left" Margin="27,28,0,0" VerticalAlignment="Top" Width="138" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="86,93,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\CACN0016.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="555,93,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\CACN1515.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="86,327,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\CACN1539.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="555,327,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\CACN0061.jpg"/>
+        <Label Content="Cartridge Canon 47 Black (N/W)" Foreground="White" HorizontalAlignment="Left" Margin="55,202,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="3,200.00 per EACH" Foreground="White" HorizontalAlignment="Left" Margin="86,238,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Cartridge Canon 510 Black" Foreground="White" HorizontalAlignment="Left" Margin="529,207,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content=" 6,050.00 per EACH" HorizontalAlignment="Left" Foreground="White" Margin="555,242,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Cartridge Canon 511 Colou" HorizontalAlignment="Left" Foreground="White" Margin="55,445,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="6,600.00 per EACH" HorizontalAlignment="Left" Foreground="White" Margin="77,480,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Content="Cartridge Canon 57 Colour" HorizontalAlignment="Left" Foreground="White" Margin="527,445,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.324,0.698" FontSize="14"/>
+        <Label Content=" 5,150.00 per EACH" HorizontalAlignment="Left" Foreground="White" Margin="555,480,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="btn_C1" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Height="19" Foreground="White" Content="View" HorizontalAlignment="Left" Margin="111,274,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_C2"  Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="View" HorizontalAlignment="Left" Margin="580,279,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_C3"  Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="View" HorizontalAlignment="Left" Margin="111,515,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_C4"  Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="View" HorizontalAlignment="Left" Margin="580,510,0,0" VerticalAlignment="Top" Width="75"/>
+      </Grid>
+        
+       
+        </StackPanel>
+    </Grid>
+</Window>

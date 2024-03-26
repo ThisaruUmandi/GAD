@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{15F2567C-6B7B-4BA0-8099-4C8A8B6F2044}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WpfApp7</RootNamespace>
+    <AssemblyName>WpfApp7</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=2.0.1.2556, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.2.0.1\lib\net452\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=4.1.0.2556, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.4.1.0\lib\net452\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Cartridge.xaml.cs" />
+    <Compile Include="Casing.xaml.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="CustomerLogin.xaml.cs" />
+    <Compile Include="CustomerSignUp.xaml.cs" />
+    <Compile Include="DescriptionCoolerMasterMwe650w.xaml.cs" />
+    <Compile Include="Description_Ac_Tech_200w.xaml.cs" />
+    <Compile Include="Description_AMD_Ryzen™9.xaml.cs" />
+    <Compile Include="Description_Asus_Rog_Strix_Lc_Ii.xaml.cs" />
+    <Compile Include="Description_Asus_Rog_Thor_850w.xaml.cs" />
+    <Compile Include="Description_Cooler_Master_Mwe_450w.xaml.cs" />
+    <Compile Include="Description_Cooler_Master_Mwe_550w .xaml.cs" />
+    <Compile Include="Description_Cooler_Master_Mwe_750w.xaml.cs" />
+    <Compile Include="Description_Core_I5-11400f.xaml.cs" />
+    <Compile Include="Description_Core_I7-10700.xaml.cs" />
+    <Compile Include="Description_Core_I7-11700f.xaml.cs" />
+    <Compile Include="Description_Core_I7-11700k.xaml.cs" />
+    <Compile Include="Description_H410r_Rgb_Hyper.xaml.cs" />
+    <Compile Include="Description_Hyper_212_Black .xaml.cs" />
+    <Compile Include="Description_I30_Cooler.xaml.cs" />
+    <Compile Include="Description_I5-10400.xaml.cs" />
+    <Compile Include="Description_Ma612_Argb.xaml.cs" />
+    <Compile Include="Description_Ma612_Stealth.xaml.cs" />
+    <Compile Include="HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Client1.xaml.cs">
+      <DependentUpon>Client1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Cpu.xaml.cs" />
+    <Compile Include="Cpucooler_and_heatsink.xaml.cs" />
+    <Compile Include="Display.xaml.cs">
+      <DependentUpon>Display.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Items.xaml.cs" />
+    <Compile Include="Laptop-Asus.xaml.cs" />
+    <Compile Include="LaptopDell.xaml.cs" />
+    <Compile Include="LaptopHp.xaml.cs" />
+    <Compile Include="Laptop_battery.xaml.cs" />
+    <Compile Include="Laptop_Lenvo.xaml.cs" />
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Power_Supply.xaml.cs" />
+    <Compile Include="Printer.xaml.cs" />
+    <Compile Include="View.xaml.cs">
+      <DependentUpon>View.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Cartridge.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Casing.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomerLogin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="CustomerSignUp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DescriptionCoolerMasterMwe650w.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Ac_Tech_200w.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_AMD_Ryzen™9.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Asus_Rog_Strix_Lc_Ii.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Asus_Rog_Thor_850w.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Cooler_Master_Mwe_450w.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Cooler_Master_Mwe_550w .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Cooler_Master_Mwe_750w.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Core_I5-11400f.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Core_I7-10700.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Core_I7-11700f.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Core_I7-11700k.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_H410r_Rgb_Hyper.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Hyper_212_Black .xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_I30_Cooler.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_I5-10400.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Ma612_Argb.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Description_Ma612_Stealth.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Client1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Cpu.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Cpucooler_and_heatsink.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Display.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Items.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Laptop-Asus.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LaptopDell.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="LaptopHp.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Laptop_battery.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Laptop_Lenvo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Login.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Power_Supply.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Printer.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Customer.zip" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Items\17349.jpg" />
+    <Resource Include="Images\Items\BROTHER-I-T220-01.jpg" />
+    <Resource Include="Images\Items\CACN0016.jpg" />
+    <Resource Include="Images\Items\CACN0061.jpg" />
+    <Resource Include="Images\Items\CACN1515.jpg" />
+    <Resource Include="Images\Items\CACN1539.jpg" />
+    <Resource Include="Images\Items\CAN-I-G2020-01.jpg" />
+    <Resource Include="Images\Items\CAN-I-G4010-01.jpg" />
+    <Resource Include="Images\Items\CASC0233.jpg" />
+    <Resource Include="Images\Items\CASC7020.jpg" />
+    <Resource Include="Images\Items\CASC8841.jpg" />
+    <Resource Include="Images\Items\CFHA5862.jpeg" />
+    <Resource Include="Images\Items\CFHC3815.jpeg" />
+    <Resource Include="Images\Items\CFHC3839.jpeg" />
+    <Resource Include="Images\Items\CFHC5771.jpeg" />
+    <Resource Include="Images\Items\CFHC7009.jpg" />
+    <Resource Include="Images\Items\CFHC7099.jpg" />
+    <Resource Include="Images\Items\CPUI6006.jpg" />
+    <Resource Include="Images\Items\CPUI7239.jpg" />
+    <Resource Include="Images\Items\CPUI7291.jpg" />
+    <Resource Include="Images\Items\CPUI7737.jpeg" />
+    <Resource Include="Images\Items\CPUI8120.jpg" />
+    <Resource Include="Images\Items\CPUI8168.jpg" />
+    <Resource Include="Images\Items\EPSON-I-L130-01.jpg" />
+    <Resource Include="Images\Items\HP-LASER-107W-01.jpg" />
+    <Resource Include="Images\Items\HPW_HP-DESKJET-4175-01.jpg" />
+    <Resource Include="Images\Items\LAP1.jpg" />
+    <Resource Include="Images\Items\LAP2.jpeg" />
+    <Resource Include="Images\Items\LAP3.jpeg" />
+    <Resource Include="Images\Items\LAP4.jpeg" />
+    <Resource Include="Images\Items\LAP5.jpg" />
+    <Resource Include="Images\Items\LAP6Dell3510.jpeg" />
+    <Resource Include="Images\Items\Laptop Dell ins 3511.jpeg" />
+    <Resource Include="Images\Items\Laptop Dell ins 3520 i7.jpeg" />
+    <Resource Include="Images\Items\Laptop Dell ins 3520 R58G.jpeg" />
+    <Resource Include="Images\Items\Laptop Dell ins 3520.jpeg" />
+    <Resource Include="Images\Items\Laptop Dell Ins 3525 R7 8G.jpeg" />
+    <Resource Include="Images\Items\Laptop Hp 15 dw4725od i58G.jpg" />
+    <Resource Include="Images\Items\Laptop Hp 15 eg0568TU i78G.jpg" />
+    <Resource Include="Images\Items\Laptop Hp 15 eh1678AU R78G.jpeg" />
+    <Resource Include="Images\Items\Laptop Hp 440 G8 i5 8GB .jpg" />
+    <Resource Include="Images\Items\Laptop Hp15 dy2795wm i5 8G.jpeg" />
+    <Resource Include="Images\Items\Laptop Hp15dy2791wm i3 8G.jpeg" />
+    <Resource Include="Images\Items\Laptop Lenovo 15IAU7 i3 8G .jpg" />
+    <Resource Include="Images\Items\Laptop Lenvo 15ALC6 R7 8 5.jpg" />
+    <Resource Include="Images\Items\Laptop Lenvo 15IAL7 i7 16.jpeg" />
+    <Resource Include="Images\Items\Laptop Lenvo V15 G2 i5 8GB.jpg" />
+    <Resource Include="Images\Items\Laptop MSI GF63 I5 8G 512G.jpeg" />
+    <Resource Include="Images\Items\Laptop MSI Modern14 I5 8G.jpeg" />
+    <Resource Include="Images\Items\LaptopBAsusS510.jpeg" />
+    <Resource Include="Images\Items\LBAsusS531.jpeg" />
+    <Resource Include="Images\Items\LBDell7547.jpeg" />
+    <Resource Include="Images\Items\LBDell7567.jpeg" />
+    <Resource Include="Images\Items\LBLeFvo.jpg" />
+    <Resource Include="Images\Items\LBTTAcer AC17A.jpeg" />
+    <Resource Include="Images\Items\PSUA0001.jpg" />
+    <Resource Include="Images\Items\PSUA8534.jpg" />
+    <Resource Include="Images\Items\PSUC6138.jpg" />
+    <Resource Include="Images\Items\PSUC6459.jpg" />
+    <Resource Include="Images\Items\PSUC6770.jpg" />
+    <Resource Include="Images\Items\PSUC8873.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Close\multiply_480px.png" />
+    <Resource Include="Images\Close\subtract_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Close\left_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sign In And Sign Up\Sign In\lock_208px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sign In And Sign Up\Sign In\user_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\BG\jason-leung-yf9hEzG8EKI-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\home_address_144px.png" />
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\identification_documents_480px.png" />
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\iphone_x_480px.png" />
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\left_500px.png" />
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\lock_208px.png" />
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\name_tag_96px.png" />
+    <Resource Include="Images\Sign In And Sign Up\Sign Up\Open email_208px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Forms\email_open_500px.png" />
+    <Resource Include="Images\Forms\home_address_144px.png" />
+    <Resource Include="Images\Forms\home_address_145px.png" />
+    <Resource Include="Images\Forms\identification_documents_480px.png" />
+    <Resource Include="Images\Forms\iphone_x_480px.png" />
+    <Resource Include="Images\Forms\iphone_x_481px.png" />
+    <Resource Include="Images\Forms\left_500px.png" />
+    <Resource Include="Images\Forms\left_501px.png" />
+    <Resource Include="Images\Forms\lock_208px.png" />
+    <Resource Include="Images\Forms\lock_209px.png" />
+    <Resource Include="Images\Forms\multiply_208px.png" />
+    <Resource Include="Images\Forms\multiply_480px.png" />
+    <Resource Include="Images\Forms\multiply_500px.png" />
+    <Resource Include="Images\Forms\name_tag_96px.png" />
+    <Resource Include="Images\Forms\name_tag_97px.png" />
+    <Resource Include="Images\Forms\Open email_208px.png" />
+    <Resource Include="Images\Forms\subtract_208px.png" />
+    <Resource Include="Images\Forms\subtract_480px.png" />
+    <Resource Include="Images\Forms\user_480px.png" />
+    <Resource Include="Images\Forms\user_481px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ThirandiF\email_open_500px.png" />
+    <Resource Include="Images\ThirandiF\home_address_144px.png" />
+    <Resource Include="Images\ThirandiF\home_address_145px.png" />
+    <Resource Include="Images\ThirandiF\identification_documents_480px.png" />
+    <Resource Include="Images\ThirandiF\iphone_x_480px.png" />
+    <Resource Include="Images\ThirandiF\iphone_x_481px.png" />
+    <Resource Include="Images\ThirandiF\left_500px.png" />
+    <Resource Include="Images\ThirandiF\left_501px.png" />
+    <Resource Include="Images\ThirandiF\lock_208px.png" />
+    <Resource Include="Images\ThirandiF\lock_209px.png" />
+    <Resource Include="Images\ThirandiF\multiply_208px.png" />
+    <Resource Include="Images\ThirandiF\multiply_480px.png" />
+    <Resource Include="Images\ThirandiF\multiply_500px.png" />
+    <Resource Include="Images\ThirandiF\name_tag_96px.png" />
+    <Resource Include="Images\ThirandiF\name_tag_97px.png" />
+    <Resource Include="Images\ThirandiF\Open email_208px.png" />
+    <Resource Include="Images\ThirandiF\subtract_208px.png" />
+    <Resource Include="Images\ThirandiF\subtract_480px.png" />
+    <Resource Include="Images\ThirandiF\user_480px.png" />
+    <Resource Include="Images\ThirandiF\user_481px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.4.1.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

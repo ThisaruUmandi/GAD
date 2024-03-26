@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp7.Laptop_battery"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Laptop_battery" Height="649.01" Width="800" Background="#FF220707"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}" 
+        AllowsTransparency="True"
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="20" BorderThickness="0">
+        <Grid Background="#FF220707" Margin="0,0,0,-30">
+
+            <StackPanel Margin="0,0,0,0">
+                <Grid Height="25" Margin="0,0,-0.4,0">
+                    <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\multiply_480px.png" Style="{StaticResource CloseStyle}" Panel.ZIndex="1" MouseUp="Image_MouseUp" Margin="0,0,-0.4,0" RenderTransformOrigin="0.015,0.478"/>
+                    <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\left_500px.png" Panel.ZIndex="1" MouseUp="Image_Back" RenderTransformOrigin="0.372,0.809" Margin="0,0,763.4,0"/>
+                </Grid>
+                <Grid>
+                    <Label Foreground="White"  Content="Laptop Battery" HorizontalAlignment="Left" Margin="40,28,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="79,112,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\LaptopBAsusS510.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="335,112,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\LBAsusS531.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="607,112,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\LBDell7547.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="79,366,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\LBDell7567.jpeg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="335,361,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\LBLeFvo.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="610,360,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\LBTTAcer AC17A.jpeg"/>
+        <Label Foreground="White"  Content="Laptop Battery Asus" HorizontalAlignment="Left" Margin="79,217,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="S510(6M)" HorizontalAlignment="Left" Margin="99,247,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="19,000.00 per EACH" HorizontalAlignment="Left" Margin="79,274,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="Laptop Battery Asus" HorizontalAlignment="Left" Margin="335,219,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="S531 (6m)" HorizontalAlignment="Left" Margin="361,246,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="19,600.00 per EACH" HorizontalAlignment="Left" Margin="335,274,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="Laptop Battery Dell 7547" HorizontalAlignment="Left" Margin="607,227,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content=" 56wh(6m)" HorizontalAlignment="Left" Margin="630,253,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="23,500.00 per EACH" HorizontalAlignment="Left" Margin="607,274,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="Laptop Battery Dell 7567" HorizontalAlignment="Left" Margin="79,471,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="74wh(6m)" HorizontalAlignment="Left" Margin="99,499,0,0" VerticalAlignment="Top" Width="70" FontSize="14"/>
+        <Label Foreground="White"  Content="24,000.00 per EACH" HorizontalAlignment="Left" Margin="79,532,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="Laptop Battery Lefvo" HorizontalAlignment="Left" Margin="335,471,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="(6m)" HorizontalAlignment="Left" Margin="361,499,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="8,150.00 per EACH" HorizontalAlignment="Left" Margin="335,532,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="Laptop Battery Tt Acer" HorizontalAlignment="Left" Margin="610,465,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="Ac17a8m (6m)" HorizontalAlignment="Left" Margin="630,492,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <Label Foreground="White"  Content="22,300.00 per EACH" HorizontalAlignment="Left" Margin="610,522,0,0" VerticalAlignment="Top" Width="148" FontSize="14"/>
+        <Button x:Name="btn_LB1" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="99,309,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_LB2" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="360,304,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_LB3" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="630,309,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_LB4" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="99,567,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_LB5" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="360,572,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button x:Name="btn_LB6" Style="{StaticResource ItmBtnStyle}" Cursor="Hand" Foreground="White" Content="view" HorizontalAlignment="Left" Margin="635,567,0,0" VerticalAlignment="Top" Width="75"/>
+                </Grid>
+
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp6.Description_I30_Cooler"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_I30_Cooler" Height="450" Width="800">
+    <Grid Background="#FF350000">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="51,40,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+        <Image HorizontalAlignment="Left" Height="135" Margin="51,116,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Cooler Coolermaster I30 Cooler" HorizontalAlignment="Left" Margin="275,116,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="275,171,0,0" TextWrapping="Wrap" Text="Brand	Toptekits/
+Power Connector Type	3-Pin/
+Voltage	12 Volts/
+Cooling Method	Air/
+Compatible Devices	Desktop/
+Noise Level	22 dB/
+Material	Aluminum/
+Maximum Rotational Speed	2200 RPM" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="273,225,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ch6" HorizontalAlignment="Left" Height="23" Margin="332,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

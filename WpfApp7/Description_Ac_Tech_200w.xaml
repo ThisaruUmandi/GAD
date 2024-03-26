@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApp6.Description_Ac_Tech_200w"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_Ac_Tech_200w" Height="450" Width="800">
+    <Grid Background="#FF380000">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="44,43,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="123" Margin="44,125,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="Power Supply Ac Tech 200w" HorizontalAlignment="Left" Margin="255,125,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="255,176,0,0" TextWrapping="Wrap" Text="AC Input: 115V230V 8.8A/5.0A /
+Frequency: 50/60Hz/
+Max Load: 450W" VerticalAlignment="Top" Foreground="White"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="259,236,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_ps1" HorizontalAlignment="Left" Height="23" Margin="325,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

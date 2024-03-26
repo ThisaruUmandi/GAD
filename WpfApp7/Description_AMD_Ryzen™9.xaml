@@ -1,0 +1,43 @@
+﻿<Window x:Class="WpfApp6.Description_AMD_Ryzen_9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp6"
+        mc:Ignorable="d"
+        Title="Description_AMD_Ryzen_9" Height="450" Width="800">
+    <Grid Background="#FF320000">
+        <Label Content="Description" HorizontalAlignment="Left" Margin="45,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+        <Image HorizontalAlignment="Left" Height="102" Margin="45,115,0,0" VerticalAlignment="Top" Width="141"/>
+        <Label Content="AMD Ryzen™ 9 7950X3D" HorizontalAlignment="Left" Margin="256,115,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="256,175,0,0" TextWrapping="Wrap" Text="Platform
+Desktop/
+Product Family
+AMD Ryzen™ Processors/
+Product Line
+AMD Ryzen™ 9 Processors/
+# of CPU Cores
+16/
+# of Threads
+32/
+Max. Boost Clock
+Up to 5.7GHz/
+Base Clock
+4.2GHz/
+L1 Cache
+1MB/
+L2 Cache
+16MB/
+L3 Cache
+128MB/
+Default TDP
+120W/
+Processor Technology for CPU Cores
+TSMC 5nm FinFET/
+CPU Socket
+AM5" VerticalAlignment="Top" Foreground="#FFFAF9F9"/>
+        <Label Content="Qty" HorizontalAlignment="Left" Margin="263,272,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt_cpu2" HorizontalAlignment="Left" Height="23" Margin="329,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,59 @@
+﻿<Window x:Class="WpfApp7.Printer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp7"
+        mc:Ignorable="d"
+        Title="Printer" Height="590.604" Width="800" Background="#FF270707"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}" 
+        AllowsTransparency="True"
+        WindowStyle="None" 
+        WindowStartupLocation="CenterScreen">
+    <Border CornerRadius="20" BorderThickness="0">
+        <Grid Background="#FF220707">
+
+            <StackPanel Margin="0,0,0,0">
+                <Grid Height="25" Margin="0,0,-0.4,0">
+                    <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\multiply_480px.png" Style="{StaticResource CloseStyle}" Panel.ZIndex="1" MouseUp="Image_MouseUp" Margin="0,0,-0.4,0" RenderTransformOrigin="0.015,0.478"/>
+                    <Image Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Close\left_500px.png" Panel.ZIndex="1" MouseUp="Image_Back" RenderTransformOrigin="0.372,0.809" Margin="0,0,763.4,0"/>
+                </Grid>
+                <Grid>
+               
+            <Grid Height="471"/>
+
+                    <Label Content="Printer" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" FontSize="24" FontWeight="Bold" Foreground="White"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="54,78,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\CAN-I-G2020-01.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="343,78,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\CAN-I-G4010-01.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="631,78,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\BROTHER-I-T220-01.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="54,302,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\HP-LASER-107W-01.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="343,302,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\HPW_HP-DESKJET-4175-01.jpg"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="631,302,0,0" VerticalAlignment="Top" Width="100" Source="C:\Users\dilsh\OneDrive\Documents\TechnoMart\WpfApp7\WpfApp7\Images\Items\EPSON-I-L130-01.jpg"/>
+                    <Label Content="Canon Inkjet Printer - PIXMA G2020" HorizontalAlignment="Left" Margin="10,183,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Rs.64,900" HorizontalAlignment="Left" Margin="54,213,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="BROTHER DCP-T220 Ink Tank Printer" HorizontalAlignment="Left" Margin="569,189,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Canon Inkjet Printer - PIXMA G4010" HorizontalAlignment="Left" Margin="281,186,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Rs.107,100" HorizontalAlignment="Left" Margin="343,215,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content=" Rs.64,599" HorizontalAlignment="Left" Margin="631,224,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="HP Laser Printer - LaserJet 107w Printer" HorizontalAlignment="Left" Margin="10,418,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content=" Rs.51,999" HorizontalAlignment="Left" Margin="60,445,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="HP DeskJet Ink Advantage " HorizontalAlignment="Left" Margin="300,421,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Rs.47,399" HorizontalAlignment="Left" Margin="343,472,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Epson EcoTank L130 Single" HorizontalAlignment="Left" Margin="589,418,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Function InkTank Printer" HorizontalAlignment="Left" Margin="589,445,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="4175 All-In-One Printer" HorizontalAlignment="Left" Margin="318,445,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Label Content="Rs.79,499" HorizontalAlignment="Left" Margin="634,475,0,0" VerticalAlignment="Top" FontSize="14" Foreground="White"/>
+                    <Button x:Name="btn_P1" Content="view" HorizontalAlignment="Left" Margin="60,254,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ItmBtnStyle}" Foreground="White" />
+                    <Button x:Name="btn_P2" Content="view" HorizontalAlignment="Left" Margin="345,255,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ItmBtnStyle}" Foreground="White"/>
+                    <Button x:Name="btn_P3" Content="view" HorizontalAlignment="Left" Margin="634,260,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ItmBtnStyle}" Foreground="White"/>
+                    <Button x:Name="btn_P4" Content="view" HorizontalAlignment="Left" Margin="54,510,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ItmBtnStyle}" Foreground="White"/>
+                    <Button x:Name="btn_P5" Content="view" HorizontalAlignment="Left" Margin="343,510,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ItmBtnStyle}" Foreground="White"/>
+                    <Button x:Name="btn_P6" Content="view" HorizontalAlignment="Left" Margin="634,510,0,0" VerticalAlignment="Top" Width="75" Style="{StaticResource ItmBtnStyle}" Foreground="White"/>
+
+                </Grid>
+
+            </StackPanel>
+
+        </Grid>
+    </Border>
+</Window>
